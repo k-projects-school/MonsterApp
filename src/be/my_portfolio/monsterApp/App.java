@@ -3,7 +3,7 @@ package be.my_portfolio.monsterApp;
 public class App {
 
 	public static void main(String[] args) {
-		Witch witch = new Witch("Dasha", 100, 100);
+		Witch witch = new Witch("Scarlett Witch", 100, 100);
 		Bear bear = new Bear(1, 20, 500);
 
 		while (witch.isAlive() && bear.isAlive()) {
